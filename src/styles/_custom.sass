@@ -1,37 +1,127 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 50%
+    left: -5%
+    width: 30%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 10%
+    right: 10%
+    width: 30%
+  &-3 
+    animation: float1 4s ease-in-out infinite alternate 
+    position: absolute
+    top: 60%
+    right: 10%
+    width: 30%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(30px)
   100%
     transform: translateY(0px)
-  
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 33%
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
 
-figcaption
-  font-weight: normal
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
 
-.BG03
-  background-color: #B5CCAD
+.BGIMG03
+  background-image: url("../assets/curso/fondos/img03.png")
 
- 
+.BGIMG04
+  background-image: url("../assets/curso/fondos/img04.png")
+
+.BGIMG05
+  background-image: url("../assets/curso/fondos/img05.png")
+
+.BGIMG06, .BGIMG07:hover
+  background-image: url("../assets/curso/fondos/img06.png")
+
+.BGIMG07
+  background-image: url("../assets/curso/fondos/img07.png")
+
+.BGIMG08
+  background-image: url("../assets/curso/fondos/img08.png")
+
+.BGIMG01, .BGIMG02, .BGIMG03, .BGIMG04, .BGIMG05, .BGIMG06, .BGIMG07, .BGIMG07:hover, .BGIMG08
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG01, .BGM05, .BGIMG05, .BGM07, .BGIMG08, .BGM09
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG01, .BG04.acordion__activo, .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #C8E3FD
+
+.BG02
+  background-color: #3ACC97
+
+.BG03, .tabs-c__tab, .linea-tiempo-d .tarjeta
+  background-color: #EFE1FF
+
+.BG04, .BGB04, .cajon.color-primario, .linea-tiempo-d__item__content__title
+  background-color: #CCE9CE
+
+.BGM05
+  background: linear-gradient(to bottom, $white, #ECF6FF, $white)
+
+.BG06
+  background-color: #E3F1FE
+
+.BG07, .BGM07
+  background-color: #F2EFDF
+
+.BG08, .bloque-texto-g.color-secundario
+  background-color: #F2F9F2
+
+.BGM09
+  background: linear-gradient(to bottom, $white, #E9F9F4, #D6EEF5, $white)
+
+.acordion__accion__btn--a
+  background-color: #D8B3FE
+
+.TC1, .slyder-f__btn i
+  color: #D8B3FE
+
+.TC2
+  color: #3ACC97
+
+.TC3
+  color: #144735
+
+.BGB04
+  border-left: 4px solid #3ACC97
+
+.table.td
+  text-align: left
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  background-color: $white
+  font-weight: 700
+
+.tabs-c__header
+  margin-bottom: 0
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+.bs
+  box-shadow: inset 1px 1px 5px #707070, inset -1px -1px 5px #707070
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  border-radius: 5px 5px 0 0
+
+.linea-tiempo-d__item__content__slot
+  border-radius: 0 0 5px 5px 
+
