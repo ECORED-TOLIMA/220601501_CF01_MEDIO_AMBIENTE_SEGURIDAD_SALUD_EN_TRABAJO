@@ -10,8 +10,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Incluso en zonas industrializadas y en valles de cemento, puede aparecer una flor silvestre en una grieta del asfalto o escucharse el canto de un pájaro entre el ruido de los automóviles. Estas presencias, aunque pequeñas, nos recuerdan nuestra esencia natural. A lo largo de la historia, el ser humano no solo ha dependido del aire, del agua, de los animales y paisajes, sino que ha intentado comprender su relación con el entorno. En este contexto, surgen una serie de conceptos clave que permiten comprender los fundamentos del medio ambiente.
-        p #[mark.BG02.px-1 Ecología:] término acuñado por el zoólogo alemán Ernst Haeckel en 1870 (del griego oikos, casa, y logos, tratado), es la ciencia que estudia las relaciones recíprocas entre los organismos y su medio. Estas relaciones incluyen factores físicos (como la luz, la temperatura o el viento), químicos (como el oxígeno o el carbono) y biológicos, que interactúan constantemente en complejos sistemas interdependientes. (Arana, 1982).
-        p.mb-0 #[mark.BG02.px-1 Biodiversidad:] se refiere a la variedad de organismos vivos en todos los niveles, incluyendo diversidad genética, de especies y de ecosistemas. Se estima que existen alrededor de 10 millones de especies en el planeta, de las cuales solo el 15 % han sido identificadas científicamente (Crisci, 2006). Colombia ocupa el segundo lugar mundial en biodiversidad de especies de vertebrados y plantas vasculares (Conabio, 2010), y cuenta con una gran riqueza en invertebrados y flora diversa.
+        p #[b Ecología:] término acuñado por el zoólogo alemán Ernst Haeckel en 1870 (del griego oikos, casa, y logos, tratado), es la ciencia que estudia las relaciones recíprocas entre los organismos y su medio. Estas relaciones incluyen factores físicos (como la luz, la temperatura o el viento), químicos (como el oxígeno o el carbono) y biológicos, que interactúan constantemente en complejos sistemas interdependientes. (Arana, 1982).
+        p.mb-0 #[b Biodiversidad:] se refiere a la variedad de organismos vivos en todos los niveles, incluyendo diversidad genética, de especies y de ecosistemas. Se estima que existen alrededor de 10 millones de especies en el planeta, de las cuales solo el 15 % han sido identificadas científicamente (Crisci, 2006). Colombia ocupa el segundo lugar mundial en biodiversidad de especies de vertebrados y plantas vasculares (Conabio, 2010), y cuenta con una gran riqueza en invertebrados y flora diversa.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img01.png' alt="Imagen decorativa")
 
@@ -20,24 +20,26 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 1.
           i Distribución del número total de especies registradas en Colombia
-        figure(data-aos="zoom-in")
+        figure.d-lg-flex.d-none(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img02.svg' alt="En la figura 1 se presenta la distribución del número total de especies registradas en Colombia por departamento. Se reportan 79.828 especies, con Antioquia como el departamento con mayor biodiversidad, concentrando el 27,2 % del total nacional.")
-          figcaption Nota. <span style="font-weight: 400">Tomado de SiB  (2025).</span>
+        figure.d-lg-none.d-flex(data-aos="zoom-in")
+          img(src='@/assets/curso/tema1/img02a.svg' alt="En la figura 1 se presenta la distribución del número total de especies registradas en Colombia por departamento. Se reportan 79.828 especies, con Antioquia como el departamento con mayor biodiversidad, concentrando el 27,2 % del total nacional.")
+        figcaption Nota. <span style="font-weight: 400">Tomado de SiB  (2025).</span>
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img03.png' alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left")
-        p #[mark.BG02.px-1 Ambiente:] es un sistema dinámico y complejo, compuesto por elementos bióticos (vivos) y abióticos (inertes), así como por sus relaciones e interacciones. También incluye componentes inmateriales, como valores culturales o simbólicos. (Wilches-Chaux, 2013). El estudio del ambiente abarca tanto las leyes naturales que rigen los ecosistemas como las relaciones sociales humanas. Se suele clasificar en medio natural y medio social. (Guerrero, 2016).
-        p #[mark.BG02.px-1 Ecosistema:] es un sistema formado por comunidades de seres vivos (biocenosis) y el entorno físico (biotopo) con el que interactúan. A través de los flujos de materia, energía e información, se establecen relaciones complejas que dan lugar al funcionamiento del ecosistema. (Guerrero, 2015).
-        p.mb-0 #[mark.BG02.px-1 Desarrollo sostenible:] es el modelo que busca satisfacer las necesidades del presente sin comprometer las posibilidades de las generaciones futuras. Se basa en tres pilares: ambiental, social y económico. Este enfoque fue popularizado por el Informe Brundtland en 1987 y es la base de las agendas globales de sostenibilidad.
+        p #[b Ambiente:] es un sistema dinámico y complejo, compuesto por elementos bióticos (vivos) y abióticos (inertes), así como por sus relaciones e interacciones. También incluye componentes inmateriales, como valores culturales o simbólicos. (Wilches-Chaux, 2013). El estudio del ambiente abarca tanto las leyes naturales que rigen los ecosistemas como las relaciones sociales humanas. Se suele clasificar en medio natural y medio social. (Guerrero, 2016).
+        p #[b Ecosistema:] es un sistema formado por comunidades de seres vivos (biocenosis) y el entorno físico (biotopo) con el que interactúan. A través de los flujos de materia, energía e información, se establecen relaciones complejas que dan lugar al funcionamiento del ecosistema. (Guerrero, 2015).
+        p.mb-0 #[b Desarrollo sostenible:] es el modelo que busca satisfacer las necesidades del presente sin comprometer las posibilidades de las generaciones futuras. Se basa en tres pilares: ambiental, social y económico. Este enfoque fue popularizado por el Informe Brundtland en 1987 y es la base de las agendas globales de sostenibilidad.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p #[mark.BG02.px-1 Huella ecológica:] es un indicador que permite calcular la demanda de recursos naturales que genera una persona, organización o país. Se expresa en hectáreas globales necesarias para producir los recursos consumidos y absorber los residuos generados. Ayuda a entender el impacto humano sobre la capacidad de regeneración del planeta.
-        p #[mark.BG02.px-1 Cambio climático:] hace referencia a las variaciones significativas y persistentes en los patrones climáticos del planeta, atribuibles en gran medida a actividades humanas que generan gases de efecto invernadero. Estas alteraciones afectan los ecosistemas, la biodiversidad y las dinámicas socioeconómicas.
-        p.mb-0 #[mark.BG02.px-1 Contaminación ambiental:] es la presencia o introducción de agentes contaminantes en el entorno natural que causan efectos adversos en el medio ambiente o en la salud humana. Puede ser química (metales pesados), física (ruido, radiación) o biológica (virus, bacterias).
-      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-9.order-lg-1.order-2(data-aos="fade-right")
+        p #[b Huella ecológica:] es un indicador que permite calcular la demanda de recursos naturales que genera una persona, organización o país. Se expresa en hectáreas globales necesarias para producir los recursos consumidos y absorber los residuos generados. Ayuda a entender el impacto humano sobre la capacidad de regeneración del planeta.
+        p #[b Cambio climático:] hace referencia a las variaciones significativas y persistentes en los patrones climáticos del planeta, atribuibles en gran medida a actividades humanas que generan gases de efecto invernadero. Estas alteraciones afectan los ecosistemas, la biodiversidad y las dinámicas socioeconómicas.
+        p.mb-0 #[b Contaminación ambiental:] es la presencia o introducción de agentes contaminantes en el entorno natural que causan efectos adversos en el medio ambiente o en la salud humana. Puede ser química (metales pesados), física (ruido, radiación) o biológica (virus, bacterias).
+      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img04.jpg' alt="Imagen decorativa")
       
     separador
@@ -271,28 +273,28 @@
     p.mb-5 Colombia, por su riqueza biológica y variedad de ecosistemas, ha experimentado transformaciones profundas en sus ecosistemas terrestres debido a múltiples actividades humanas y al cambio climático. A continuación, se presentan algunos de los impactos más significativos observados en las últimas décadas:
 
     TabsC.color-acento-botones.mb-5(data-aos="zoom-out")
-      .BGIMG02.p-4(titulo="Pérdida de páramos (1985 - 2005)")
+      .BGIMG02.py-lg-5.p-4(titulo="Pérdida de páramos (1985 - 2005)")
         .row.justify-content-center
           .col-lg-6.col-10.mb-lg-0.mb-4
             img(src='@/assets/curso/tema1/img24.png' alt="Imagen decorativa")
           .col-lg-6
             p.mb-0 Durante este periodo, la tasa anual de pérdida de los ecosistemas de páramo en Colombia alcanzó el 17 %, una cifra alarmante considerando que estos ecosistemas son vitales para la regulación hídrica del país, la conservación de biodiversidad y el almacenamiento de carbono.
-      .BGIMG02.p-4(titulo="Reducción de sabanas naturales (1987 - 2007)")
+      .BGIMG02.py-lg-5.p-4(titulo="Reducción de sabanas naturales (1987 - 2007)")
         .row.justify-content-center
           .col-lg-6.col-10.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema1/img24.png' alt="Imagen decorativa")
+            img(src='@/assets/curso/tema1/img25.png' alt="Imagen decorativa")
           .col-lg-6
             p.mb-0 En tan solo 20 años, la extensión de sabanas inundables, arenosas y altas disminuyó de 11.401 km² a 9.283 km², es decir, una reducción del 18,5 %. Este cambio ha sido impulsado principalmente por la conversión de tierras para actividades agrícolas, ganaderas y de infraestructura, alterando el equilibrio ecológico de estas regiones.
-      .BGIMG02.p-4(titulo="Retroceso glaciar (1980 - 2010)")
+      .BGIMG02.py-lg-5.p-4(titulo="Retroceso glaciar (1980 - 2010)")
         .row.justify-content-center
           .col-lg-6.col-10.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema1/img24.png' alt="Imagen decorativa")
+            img(src='@/assets/curso/tema1/img26.png' alt="Imagen decorativa")
           .col-lg-6
             p.mb-0 Las seis principales superficies glaciares del país "Sierra Nevada de Santa Marta, Sierra Nevada del Cocuy, y los volcanes-nevados del Ruiz, Santa Isabel, Tolima y Huila", han perdido en promedio un 57 % de su cobertura. Este fenómeno no solo evidencia el calentamiento global, sino que también amenaza el abastecimiento de agua para millones de personas.
-      .BGIMG02.p-4(titulo="Proyección para 2032")
+      .BGIMG02.py-lg-5.p-4(titulo="Proyección para 2032")
         .row.justify-content-center
           .col-lg-6.col-10.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema1/img24.png' alt="Imagen decorativa")
+            img(src='@/assets/curso/tema1/img27.png' alt="Imagen decorativa")
           .col-lg-6
             p.mb-0 Según WWF (2017), de mantenerse las tendencias actuales de calentamiento, los picos nevados podrían desaparecer completamente del paisaje colombiano en menos de una década, marcando un hito irreversible en la transformación del ecosistema andino y generando impactos hídricos, climáticos y culturales.
 
@@ -493,38 +495,45 @@
     .BGIMG05.px-md-5.px-4.py-4.mb-5(data-aos="zoom-in")
       .tarjeta.tarjeta--blanca.p-4
         PasosB.color-acento-botones
-          .row.justify-content-center(titulo="Protección de los ecosistemas")
+          .row.justify-content-center
             .col-lg-6.order-lg-1.order-2
+              .h4 Protección de los ecosistemas
               p.mb-0 Es esencial para mantener el equilibrio natural y garantizar la supervivencia de diversas especies. Los ecosistemas, como los bosques, los océanos, los humedales y las zonas de montaña, son esenciales no solo para la vida silvestre, sino también para los seres humanos, ya que proporcionan servicios ecosistémicos vitales, como la purificación del aire y del agua, la regulación del clima y la fertilidad del suelo. La deforestación, la sobreexplotación de los recursos naturales y la urbanización desmedida amenazan estos ecosistemas, por lo que es fundamental implementar estrategias de protección, como la creación de áreas protegidas, parques nacionales y reservas naturales.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img43.png' alt="Imagen decorativa")
-          .row.justify-content-center(titulo="Sostenibilidad de los recursos naturales")
+          .row.justify-content-center
             .col-lg-6.order-lg-1.order-2
+              .h4 Sostenibilidad de los recursos naturales
               p.mb-0 El uso sostenible de los recursos naturales implica gestionarlos de manera que se pueda satisfacer las necesidades actuales sin comprometer la capacidad de las futuras generaciones para satisfacer las suyas. Esto incluye prácticas como la agricultura sostenible, la pesca responsable, la reforestación y el uso eficiente de los recursos hídricos y energéticos. El concepto de desarrollo sostenible, en el que se equilibran las necesidades económicas, sociales y ambientales, es clave para garantizar la conservación de los recursos naturales a largo plazo.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img44.png' alt="Imagen decorativa")
-          .row.justify-content-center(titulo="Reducción de la contaminación")
+          .row.justify-content-center
             .col-lg-6.order-lg-1.order-2
+              .h4 Reducción de la contaminación
               p.mb-0 La contaminación del aire, el agua y el suelo es una de las principales amenazas para el medio ambiente y la salud humana. El vertido de productos químicos tóxicos, la acumulación de desechos plásticos y la emisión de gases contaminantes afectan gravemente los ecosistemas y contribuyen al cambio climático. Las políticas públicas y las prácticas empresariales deben centrarse en la reducción de la contaminación a través de tecnologías limpias, el reciclaje, la reutilización de materiales y el tratamiento adecuado de los residuos industriales y urbanos. Además, es fundamental promover una conciencia ambiental entre la población para que cada individuo se responsabilice de sus acciones en relación con la generación de residuos y la contaminación.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img45.png' alt="Imagen decorativa")
-          .row.justify-content-center(titulo="Cambio climático y mitigación")
+          .row.justify-content-center
             .col-lg-6.order-lg-1.order-2
+              .h4 Cambio climático y mitigación
               p.mb-0 Es uno de los mayores retos ambientales del siglo XXI, impulsado principalmente por las actividades humanas, como la quema de combustibles fósiles y la deforestación. Este fenómeno está provocando alteraciones en los patrones climáticos, el aumento del nivel del mar y fenómenos meteorológicos extremos. La mitigación del cambio climático requiere la adopción de políticas que reduzcan las emisiones de gases de efecto invernadero, como la transición hacia fuentes de energía renovables, la promoción de la eficiencia energética y la reforestación. Además, es crucial la adaptación a los efectos inevitables del cambio climático, a través de la construcción de infraestructuras resilientes y el fortalecimiento de los sistemas de salud y la agricultura.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img46.png' alt="Imagen decorativa")
-          .row.justify-content-center(titulo="Educación y sensibilización ambiental")
+          .row.justify-content-center
             .col-lg-6.order-lg-1.order-2
+              .h4 Educación y sensibilización ambiental
               p.mb-0 La educación ambiental es una herramienta poderosa para fomentar una cultura de conservación. Mediante la sensibilización y el aprendizaje sobre los problemas ambientales, se puede cambiar la actitud de las personas hacia el uso responsable de los recursos naturales. Programas educativos en escuelas, universidades y comunidades, junto con campañas de sensibilización, son esenciales para involucrar a la ciudadanía en la protección del medio ambiente. El cambio de comportamiento hacia prácticas más sostenibles, como la reducción del consumo de agua y energía, el uso de transporte público y el reciclaje, es fundamental para lograr avances en la conservación del medio ambiente.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img47.png' alt="Imagen decorativa")
-          .row.justify-content-center(titulo="Innovación y tecnología para la conservación")
+          .row.justify-content-center
             .col-lg-6.order-lg-1.order-2
+              .h4 Innovación y tecnología para la conservación
               p.mb-0 Juega un papel crucial en la conservación del medio ambiente. Desde la implementación de energías renovables, como la solar y la eólica, hasta el desarrollo de tecnologías para la captura de carbono, la investigación y el uso de nuevas tecnologías pueden ayudar a mitigar los impactos negativos sobre el medio ambiente. La biotecnología, la nanotecnología y los sistemas inteligentes también tienen el potencial de mejorar la eficiencia en el uso de recursos y reducir los residuos. Además, el desarrollo de sistemas de monitoreo ambiental mediante satélites y sensores puede mejorar la capacidad de respuesta ante desastres naturales y ayudar en la gestión sostenible de los recursos.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img48.png' alt="Imagen decorativa")
-          .row.justify-content-center(titulo="Responsabilidad global y local")
+          .row.justify-content-center
             .col-lg-6.order-lg-1.order-2
+              .h4 Responsabilidad global y local
               p.mb-0 La conservación del medio ambiente es una responsabilidad compartida a nivel global y local. Si bien los problemas ambientales tienen un carácter mundial, como el cambio climático y la pérdida de biodiversidad, las soluciones deben ser adaptadas a contextos locales. Cada región del mundo enfrenta desafíos ambientales específicos y requiere enfoques y soluciones apropiadas para su situación. Los esfuerzos de conservación deben incluir tanto políticas globales, como el Acuerdo de París sobre el cambio climático, como acciones locales, como la gestión de áreas naturales protegidas y la promoción de prácticas sostenibles en las comunidades.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img49.png' alt="Imagen decorativa")

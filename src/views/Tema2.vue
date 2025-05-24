@@ -343,11 +343,7 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.4 Actos y condiciones subestándar
     
-    .row.justify-content-center.mb-5
-      .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema2/img42.svg' alt="Imagen decorativa")
-      .col-lg-10(data-aos="fade-left")
-        p.mb-0 En el ámbito de la seguridad y salud en el trabajo, es fundamental identificar las causas que pueden generar accidentes o enfermedades laborales. Estas causas se clasifican en dos grandes categorías: los actos subestándar y las condiciones subestándar. Comprender estas diferencias permite a las organizaciones implementar medidas preventivas eficaces y reducir la ocurrencia de incidentes que afecten la integridad física, mental o social de los trabajadores. Tanto los actos como las condiciones subestándar son indicadores de fallas en la cultura preventiva de la empresa y deben ser intervenidos oportunamente dentro del Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST).
+    p.mb-5 En el ámbito de la seguridad y salud en el trabajo, es fundamental identificar las causas que pueden generar accidentes o enfermedades laborales. Estas causas se clasifican en dos grandes categorías: los actos subestándar y las condiciones subestándar. Comprender estas diferencias permite a las organizaciones implementar medidas preventivas eficaces y reducir la ocurrencia de incidentes que afecten la integridad física, mental o social de los trabajadores. Tanto los actos como las condiciones subestándar son indicadores de fallas en la cultura preventiva de la empresa y deben ser intervenidos oportunamente dentro del Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -518,7 +514,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Las condiciones de salud hacen referencia al conjunto de factores fisiológicos, psicológicos, sociales y culturales que afectan el bienestar de los trabajadores y que permiten establecer un perfil general de la población laboral. Estos factores pueden ser identificados tanto a través de mediciones objetivas como por medio del autorreporte de los trabajadores.
-        .tarjeta.BG01.p-4.mb-4
+        .tarjeta.BG01.p-3.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema2/img51.svg' alt="Imagen decorativa")
@@ -526,7 +522,7 @@
               p.mb-0  Según la Ley 1562 de 2012, las condiciones de salud incluyen elementos como antecedentes médicos, presencia de enfermedades crónicas, condiciones mentales, hábitos de vida, entorno familiar y social, entre otros. Su análisis permite identificar tendencias de morbilidad y factores de riesgo prevalentes en un grupo de trabajo.
         p Evaluar las condiciones de salud es fundamental para:
         .tarjeta.BG06.p-4
-          ul.lista-ul--color
+          ul.lista-ul--color.mb-0
             li(style="margin-bottom: 2px")
               i.fa-solid.fa-helmet-safety.TC2
               | Diseñar e implementar programas de promoción de la salud y prevención de enfermedades.
@@ -673,7 +669,7 @@
       h2 2.8 Programas de higiene y seguridad en el trabajo
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
+      .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         p Los programas de higiene y seguridad en el trabajo son componentes esenciales dentro del Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST), diseñados para gestionar los riesgos identificados en cada actividad económica y proceso productivo. Su planificación se basa en los resultados de la identificación de peligros y la valoración de riesgos, y su implementación está liderada por el responsable del SG-SST, con el apoyo del Comité Paritario de Seguridad y Salud en el Trabajo (COPASST) y la alta dirección.
         .tarjeta.BG04.p-4.mb-4
           .row.justify-content-center
@@ -682,7 +678,7 @@
             .col
               p.mb-0 Estos programas consisten en un conjunto de actividades sistemáticas, desarrolladas en un periodo de tiempo determinado, orientadas a prevenir la ocurrencia de accidentes laborales y enfermedades de origen ocupacional, mejorando así las condiciones de trabajo y promoviendo una cultura de prevención.
         p.mb-0 Programas fundamentales en el SG-SST:
-      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-5.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img60.png' alt="Imagen decorativa")
 
     .BGIMG01.px-md-5.px-4.mb-5
