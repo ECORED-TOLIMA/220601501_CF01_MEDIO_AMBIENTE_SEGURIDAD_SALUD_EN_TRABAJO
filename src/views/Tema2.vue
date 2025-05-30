@@ -27,8 +27,10 @@
           i Esquema de Seguridad y Salud en el Trabajo (SST )
         figure.d-lg-flex.d-none(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img02.svg' alt="En la figura 2 se presenta el objetivo de la Seguridad y Salud en el Trabajo (SST), el cual se centra en la prevención de lesiones y enfermedades derivadas de las condiciones laborales, así como en la promoción y protección de la salud física, mental y social de los trabajadores.")
+          figcaption Nota. <span style="font-weight: 400">Tomado de SiB (2025).</span>
         figure.d-lg-none.d-flex(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img02a.svg' alt="En la figura 2 se presenta el objetivo de la Seguridad y Salud en el Trabajo (SST), el cual se centra en la prevención de lesiones y enfermedades derivadas de las condiciones laborales, así como en la promoción y protección de la salud física, mental y social de los trabajadores.")
+          figcaption Nota. <span style="font-weight: 400">Tomado de SiB (2025).</span>
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
