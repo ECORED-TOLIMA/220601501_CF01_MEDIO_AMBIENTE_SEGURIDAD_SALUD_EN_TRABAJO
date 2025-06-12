@@ -179,7 +179,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA_01_220601501_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -409,7 +409,7 @@ export default {
     },
     {
       referencia:
-        'Rodríguez-Eugenio, N., McLaughlin, M., & Pennock, D. (2019). Contaminación del suelo: una realidad oculta. FAO. https://www.fao.org',
+        'Rodríguez-Eugenio, N., McLaughlin, M., & Pennock, D. (2019). Contaminación del suelo: una realidad oculta. FAO.',
     },
     {
       referencia:

@@ -27,10 +27,8 @@
           i Esquema de Seguridad y Salud en el Trabajo (SST )
         figure.d-lg-flex.d-none(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img02.svg' alt="En la figura 2 se presenta el objetivo de la Seguridad y Salud en el Trabajo (SST), el cual se centra en la prevención de lesiones y enfermedades derivadas de las condiciones laborales, así como en la promoción y protección de la salud física, mental y social de los trabajadores.")
-          figcaption Nota. <span style="font-weight: 400">Tomado de SiB (2025).</span>
         figure.d-lg-none.d-flex(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img02a.svg' alt="En la figura 2 se presenta el objetivo de la Seguridad y Salud en el Trabajo (SST), el cual se centra en la prevención de lesiones y enfermedades derivadas de las condiciones laborales, así como en la promoción y protección de la salud física, mental y social de los trabajadores.")
-          figcaption Nota. <span style="font-weight: 400">Tomado de SiB (2025).</span>
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -103,7 +101,7 @@
               p.mb-0 Para profundizar este concepto en la normativa vigente, se recomienda consultar el Decreto Único Reglamentario del Sector Trabajo 1072 de 2015, actualizado en abril de 2016. Disponible en:
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8" target="_blank")
-                span Descargar
+                span Abrir enlace
                 i.fas.fa-file-download
     
     .row.justify-content-center.mb-5
@@ -301,8 +299,8 @@
               h4.TC3 Guía para la identificación de peligros, valoración de riesgos y determinación de controles
               p.mb-0 Para mayor información sobre la identificación, evaluación de riesgos y medidas de intervención, se recomienda consultar la GTC 45 de 2012, disponible en el siguiente enlace:
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.minsalud.gov.co/Ministerio/Institucional/Procesos%20y%20procedimientos/GTHG01.pdf" target="_blank")
-                span Descargar
+              a.boton.color-acento-botones(href="http://132.255.23.82/sipnvo/normatividad/GTC_45_DE_2012.pdf" target="_blank")
+                span Abrir enlace
                 i.fas.fa-file-download
 
     .BGIMG01.px-md-5.px-4.mb-5
@@ -463,10 +461,10 @@
           .row.justify-content-between.align-items-center
             .col.mb-sm-0.mb-4
               h4.TC3 Sistema de riesgos laborales
-              p.mb-0 Para revisar este y otros conceptos en la normativa vigente consulte la Ley 1562 de 2012.
+              p.mb-0 Para revisar este y otros conceptos en la normativa vigente consultar la Ley 1562 de 2012.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Ley-1562-de-2012.pdf" target="_blank")
-                span Descargar
+                span Abrir enlace
                 i.fas.fa-file-download
 
     p.mb-5 Para facilitar la comprensión de las diferencias y características entre enfermedad laboral y accidente de trabajo, a continuación, se presenta un cuadro comparativo que resume sus principales aspectos:

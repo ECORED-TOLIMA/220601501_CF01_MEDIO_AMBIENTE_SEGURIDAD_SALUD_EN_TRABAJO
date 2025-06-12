@@ -544,20 +544,6 @@
       .col-lg-8(data-aos="fade-left")
         p.mb-0 La conservación del medio ambiente es un compromiso colectivo que implica un cambio en los hábitos de consumo, el desarrollo de políticas sostenibles y el fomento de la educación ambiental. Para lograr un futuro sostenible, es fundamental actuar con responsabilidad, promover la cooperación internacional y adoptar prácticas que favorezcan el equilibrio entre el desarrollo humano y la preservación de la naturaleza. La acción consciente y la toma de decisiones informadas son claves para lograr una mejor calidad de vida para todos y preservar la riqueza natural de nuestro planeta.
 
-    .tarjeta.BG01.p-4.mb-4(data-aos="fade-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src='@/assets/curso/tema1/img51.svg' alt="Imagen decorativa")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-sm-0.mb-4
-              h4.TC3 Aplicar práctica de protección ambiental, seguridad y salud en el trabajo de acuerdo con las políticas organizacionales y la normatividad vigente
-              p.mb-0 Para profundizar este y otros conceptos haga lectura del siguiente documento.
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Medio_ambiente.pptx')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-
 </template>
 
 <script>
